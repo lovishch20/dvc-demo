@@ -7,6 +7,7 @@ try: import cPickle as pickle   # python2
 except: import pickle           # python3
 
 model_file = conf.model
+
 test_matrix_file = conf.test_matrix
 metrics_file = 'data/eval.txt'
 
