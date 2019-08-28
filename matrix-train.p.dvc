@@ -1,0 +1,23 @@
+md5: 36009099010b0107900ae785073583fc
+cmd: python code/featurization.py
+wdir: .
+deps:
+- md5: ce7b0bd196adf75be259f531e95ec792
+  path: code/featurization.py
+- md5: 17f591c0c65a450fd53b34ba0ac6df7b
+  path: code/conf.py
+- md5: 3e0e657ebcde2379cf9903a95dab8a4a
+  path: data/Posts-train.tsv
+- md5: e7625e74dca773acedc26d216163d8a5
+  path: data/Posts-test.tsv
+outs:
+- md5: 4821a3c4ed0b623ee3db873004723a07
+  path: data/matrix-train.p
+  cache: true
+  metric: false
+  persist: false
+- md5: 65e6cae9fe140b52ce103f1ddcf7573e
+  path: data/matrix-test.p
+  cache: true
+  metric: false
+  persist: false
